@@ -61,3 +61,53 @@ The laboratory consists of:
           │  Kali Linux   │
           │  10.0.0.2     │
           └───────────────┘
+
+
+---
+
+## 🏗️ Lab configuration 
+
+
+| Component       | Configuration |
+| --------------- | ------------- |
+| Host OS         | Windows 11    |
+| Hypervisor      | VirtualBox    |
+| Security OS     | Kali Linux    |
+| Virtual Network | NAT Network   |
+| Network         | 10.0.0.0/24   |
+| Kali IP         | 10.0.0.2      |
+| Gateway         | 10.0.0.1      |
+| DNS             | 8.8.8.8       |
+
+
+🪜 Lab Setup Procedure
+Step 1 — Install VirtualBox
+
+VirtualBox was installed as the virtualization platform.
+
+Step 2 — Create the NAT Network
+
+A dedicated NAT Network was created for the cybersecurity laboratory.
+
+Network:
+
+10.0.0.0/24
+Step 3 — Install Kali Linux
+
+Kali Linux was installed/imported as a virtual machine.
+
+Step 4 — Configure the Network
+
+The Kali Linux network adapter was connected to the NAT Network.
+
+Step 5 — Configure the IP Address
+
+Example:
+
+IP Address: 10.0.0.2
+Subnet Mask: 255.255.255.0
+Gateway: 10.0.0.1
+DNS: 8.8.8.8
+
+
+
