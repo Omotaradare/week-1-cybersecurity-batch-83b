@@ -79,8 +79,8 @@ The laboratory consists of:
 | Gateway         | 10.0.0.1      |
 | DNS             | 8.8.8.8       |
 
-
-🪜 Lab Setup Procedure
+---
+##🪜 Lab Setup Procedure
 Step 1 — Install VirtualBox
 
 VirtualBox was installed as the virtualization platform.
@@ -108,6 +108,56 @@ IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
 DNS: 8.8.8.8
+---
 
+##🐞 Problems Encountered
+Problem 1 — Network Connectivity
+
+The Kali VM experienced network connectivity issues after configuring the network.
+
+Solution
+
+The network configuration was reviewed and the connection was restarted.
+
+Problem 2 — Virtualization Error
+
+VirtualBox could not start the VM because hardware virtualization was disabled.
+
+Solution
+
+Hardware virtualization was enabled in the computer's BIOS/UEFI settings.
+---
+##💡 What I Learned
+
+Through this project I learned:
+
+How virtualization works
+How to install Kali Linux
+How VirtualBox networking works
+How NAT Networks work
+How to configure IPv4
+How to test network connectivity
+How to use VM snapshots
+How to document cybersecurity projects
+
+##🔐 Security & Ethical Use
+
+This laboratory is intended strictly for educational purposes.
+
+All security testing must be performed only against systems that are owned by me or where I have explicit authorization.
+
+##🛠️ Tools Used
+VirtualBox
+Kali Linux
+Nmap
+7-Zip
+GitHub
+👤 Author
+
+Your Name
+
+Cybersecurity / IT Professional
+
+GitHub: Your GitHub Profile
 
 
